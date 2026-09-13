@@ -1,0 +1,26 @@
+--SELECT * FROM fakulte
+--SELECT * FROM bolum
+--INSERT INTO fakulte VALUES (5,'Tıp')
+--SELECT b.bolumad,f.ad FROM bolum b CROSS JOIN fakulte f
+--SELECT * FROM bolum2
+--SELECT * FROM bolum3
+--SELECT * FROM bolum2
+--EXCEPT
+--SELECT * FROM bolum3
+--SELECT ASCII('B')
+--SELECT CONCAT('Taha ','Buğra ','AK')
+--SELECT CONCAT_WS('*','Taha','Buğra','Ak')
+--SELECT id,REPLACE(ad,'i','ı') FROM bolum3
+--SELECT REVERSE(ad) FROM bolum2
+--SELECT id,REPLACE(ad,'a','e') FROM bolum2
+--SELECT REVERSE(ad) FROM bolum3
+--SELECT SUBSTRING('Taha Buğra Ak',6,5)
+--SELECT abs(-150)
+--SELECT ceiling(5.86)
+--SELECT floor(4.56)
+--SELECT PI()
+--SELECT power(3,3)
+--SELECT sqrt(729)
+--SELECT LOG(1000)
+
+

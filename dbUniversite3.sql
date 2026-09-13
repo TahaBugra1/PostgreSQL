@@ -1,0 +1,16 @@
+-- do $$
+-- declare sinav1 int:=20;
+-- 		sinav2 int:=70;
+-- 		sinav3 int:=30;
+-- 		toplam int:=0;
+-- 		ortalama int:=0;
+-- begin
+-- toplam=(sinav1+sinav2+sinav3);
+-- ortalama=(toplam/3);
+-- raise notice 'Sınav Ortalaması: %',ortalama;
+-- if ortalama > 50 then
+-- raise notice 'Sınavı Geçti!!';
+-- else
+-- raise notice 'Sınavdan Kaldı!!';
+-- end if;
+-- end $$

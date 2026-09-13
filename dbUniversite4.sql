@@ -1,0 +1,17 @@
+-- Do $$
+-- Declare sayi int:=235;
+-- Begin
+-- if sayi%2=0 then
+-- raise notice 'Sayı Çifttir!!';
+-- else
+-- raise notice 'Sayı Tektir!!';
+-- end if;
+-- end $$
+-- SELECT * FROM dersler
+-- SELECT * FROM bolum
+-- do $$
+-- declare adet int;
+-- begin
+-- adet=(SELECT COUNT(*) FROM dersler WHERE bolumid=(SELECT bolumid FROM bolum WHERE bolumad='Yazılım'));
+-- raise notice 'İlgili bölüme ait ders adeti: %',adet;
+-- end $$;
